@@ -25,7 +25,7 @@ $(document).ready(function(){
         }
         else {
 
-            recipient_email = 'support@emanatewireless.com';
+            recipient_email = 'info@emanatewireless.com';
             subject = 'General Inquiry Submission';
             sender_email = $('#contact-email').val();
             message = $('#contact-name').val() + '\n' + $('#contact-email').val() + '\n' + $("#contact-message").val();
@@ -53,7 +53,7 @@ $(document).ready(function(){
         else {
 
             redirect = null;
-            recipient_email = 'support@emanatewireless.com';
+            recipient_email = 'info@emanatewireless.com';
             subject = $('#contact-subject').val();
             sender_email = $('#contact-email').val();
             message = $('#contact-name').val() + '\n' + $('#contact-email').val() + '\n' + $("#contact-company").val();
