@@ -500,3 +500,70 @@ background-image: linear-gradient(to bottom, #B3C2FF 0%, #01405E 100%);
     padding: 0px;
     height: 0px;
 }
+
+.contact-banner-compressed-bg {
+    background-image: url(../media/contact_banner_compressed.jpg);
+}
+
+.app-banner-compressed-bg {
+    background-image: url(../media/app_banner_compressed.jpg);
+}
+
+.blog-banner-compressed-bg {
+    background-image: url(../media/blog_banner_compressed.jpg);
+}
+
+.news-banner1-compressed-bg {
+    background-image: url(../media/news_banner1_compressed.jpg);
+}
+
+.aboutus3-banner-compressed-bg {
+    background-image: url(../media/aboutus3_banner_compressed.jpg);
+}
+
+.aboutus2-banner-compressed-bg {
+    background-image: url(../media/aboutus2_banner_compressed.jpg);
+}
+
+.aboutus-banner1-compressed-bg {
+    background-image: url(../media/aboutus_banner1_compressed.jpg);
+}
+
+.solutions5-banner-compressed-bg {
+    background-image: url(../media/solutions5_banner_compressed.jpg);
+}
+
+.solutions4-banner-compressed-bg {
+    background-image: url(../media/solutions4_banner_compressed.jpg);
+}
+
+.solutions1-banner-compressed-bg {
+    background-image: url(../media/solutions1_banner_compressed.jpg);
+}
+
+.padding-left-15 {
+    padding-left: 15px;
+}
+
+.new-links-ul {
+    color: white;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.heading-2-color-black {
+    color: black;
+}
+
+.padding-bottom-40 {
+    padding-bottom: 40px;
+}
+
+.text-transform-upper {
+    text-transform: uppercase;
+}
+
+.image-width-no-border {
+    width: 75%;
+    border: 0;
+}
