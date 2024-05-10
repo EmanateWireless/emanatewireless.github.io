@@ -103,8 +103,7 @@ function displayCurrentYear() {
     yearSpan.textContent = currentYear;
 }
 
-// Add an event listener for the DOMContentLoaded event
+// Execute the function when DOMContentLoaded
 document.addEventListener("DOMContentLoaded", function(event) {
-    // Call your function once the DOM is loaded
     displayCurrentYear();
 });
