@@ -89,6 +89,21 @@ function send_email(recipient_email, subject, sender_email, message, redirect = 
         if (redirect){
             window.location.replace(redirect);
         }
-    }); 
+    });
 }
 
+function displayCurrentYear() {
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+
+    // Find the span element dynamic-year
+    const yearSpan = document.querySelector('.dynamic-year');
+
+    // Update the content of the span with the current year
+    yearSpan.textContent = currentYear;
+}
+
+// Execute the function when DOMContentLoaded
+document.addEventListener("DOMContentLoaded", function(event) {
+    displayCurrentYear();
+});
