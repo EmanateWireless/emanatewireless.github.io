@@ -175,7 +175,7 @@ a:focus, a:hover, button:focus{
 
 .modal-col{
     padding: 20px;
-} 
+}
 
 .modal-body{
     padding-top: 0;
@@ -235,22 +235,22 @@ a:focus, a:hover, button:focus{
     border: 0;
     padding-left: 12px;
     padding-right: 12px;
-/* IE10+ */ 
+/* IE10+ */
 background-image: -ms-linear-gradient(top, #B3C2FF 0%, #01405E 100%);
 
-/* Mozilla Firefox */ 
+/* Mozilla Firefox */
 background-image: -moz-linear-gradient(top, #B3C2FF 0%, #01405E 100%);
 
-/* Opera */ 
+/* Opera */
 background-image: -o-linear-gradient(top, #B3C2FF 0%, #01405E 100%);
 
-/* Webkit (Safari/Chrome 10) */ 
+/* Webkit (Safari/Chrome 10) */
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B3C2FF), color-stop(100, #01405E));
 
-/* Webkit (Chrome 11+) */ 
+/* Webkit (Chrome 11+) */
 background-image: -webkit-linear-gradient(top, #B3C2FF 0%, #01405E 100%);
 
-/* W3C Markup */ 
+/* W3C Markup */
 background-image: linear-gradient(to bottom, #B3C2FF 0%, #01405E 100%);
 }
 
@@ -566,4 +566,21 @@ background-image: linear-gradient(to bottom, #B3C2FF 0%, #01405E 100%);
 .image-width-no-border {
     width: 75%;
     border: 0;
+}
+
+.dynamic-year {
+    /* Resetting margin, padding, and border */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* Resetting font properties */
+    font: inherit;
+    /* Resetting background, text color, and decoration */
+    background: transparent;
+    color: inherit;
+    text-decoration: none;
+    /* Resetting other styles */
+    display: inline;
+    height: fit-content;
+    width: fit-content;
 }
