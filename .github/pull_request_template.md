@@ -1,5 +1,9 @@
 ## Emanate Website Checklist
 
+### Related Task or Bug Link
+
+Add link(s) to relevant tasks or bugs associated with these changes.
+
 ### PR Details
 
 PR details have been updated as per the given format (see below)
